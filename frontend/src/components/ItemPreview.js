@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import agent from "../agent";
+import placeholder from "../../placeholder.png";
 import { connect } from "react-redux";
 import { ITEM_FAVORITED, ITEM_UNFAVORITED } from "../constants/actionTypes";
 
@@ -36,7 +37,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image}
+        src={placeholder}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
