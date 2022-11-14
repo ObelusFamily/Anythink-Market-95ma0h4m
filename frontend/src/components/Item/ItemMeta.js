@@ -10,7 +10,7 @@ const ItemMeta = (props) => {
         <img
           id="seller-image"
           src={"../../placeholder.png"}
-          alt={"placeholder"}
+          alt={"placeholder_image"}
           className="user-pic mr-2"
         />
       </Link>
