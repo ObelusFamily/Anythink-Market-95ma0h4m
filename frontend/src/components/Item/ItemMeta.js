@@ -6,11 +6,11 @@ const ItemMeta = (props) => {
   const item = props.item;
   return (
     <div id="item-meta" className="d-flex flex-row align-items-center pt-2">
-      <Link to={`/@${item.seller.username}`}>
+      <Link to={"../../placeholder.png"}>
         <img
           id="seller-image"
-          src={item.seller.image}
-          alt={item.seller.username}
+          src={"../../placeholder.png"}
+          alt={"placeholder"}
           className="user-pic mr-2"
         />
       </Link>
