@@ -9,8 +9,8 @@ const ItemMeta = (props) => {
       <Link to={`/@${item.seller.username}`}>
         <img
           id="seller-image"
-          src={item.seller.image}
-          alt={item.seller.username}
+          src={"../../placeholder.png"}
+          alt={"placholder"}
           className="user-pic mr-2"
         />
       </Link>
